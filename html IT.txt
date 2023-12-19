@@ -1,0 +1,937 @@
+
+
+Que 10 creating table :- 2 (codes)
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .header{
+            background-color: rgb(80, 156, 186) ;
+            width: 100%;
+            text-align: center;
+            color: red;
+        }
+        .form{
+                 background-color: aqua;
+        }
+        .text{
+            color: red;
+            font-weight: bold;
+            margin: 5px;
+        }
+        .text2{
+            text-align: center;
+             margin: 5px;
+            }
+        .first{
+            position: relative;
+            inset-inline-start: 20px;
+        }
+        .second{
+               position: relative;
+               inset-inline-start: 15px;
+        }
+        .third{
+                position: relative;
+                inset-inline-end: 12px;
+        }
+        .text3{
+            display: flex;
+            margin: 10px;
+        }
+        .text4{
+             position: relative;
+             inset-inline-start: 70px;
+        }
+        .text5{
+            position: relative;
+            inset-inline-start:  350px;
+        
+        }
+        .a{
+            position: relative;
+            inset-inline-start: 18px ;
+            margin: 5px;
+           
+        }
+        .b{
+            position: relative;
+            margin: 5px;
+        }
+        .c{
+            position: relative;
+            inset-inline-end: 12px;
+            margin: 5px;
+        }
+        .d{
+            position: relative;
+            inset-inline-start: 32px;
+        }
+        .e{
+            position: relative;
+            inset-inline-start: 55px;
+            margin: 5px;
+        }
+        .f{
+            position: relative;
+            inset-inline-start: 58px;
+            margin: 5px;
+        }
+        .g{
+            position: relative;
+            inset-inline-start: 70px;
+            margin: 5px;
+        }
+        .h{
+            position: relative;
+            inset-inline-start: 26px;
+        
+        }
+        .account{
+            position: relative;
+            inset-block-start: -8px;
+            inset-inline-start: 21px;
+        }
+        .no{
+            position: relative;
+            inset-block-start: 5px;
+        }
+        .text6{
+               position: relative;
+               left: 29px;
+
+        }
+        .text6a{
+            margin: 5px;
+        }
+        .text6b{
+            position: relative;
+            left: 55px;
+            
+        }
+        .account{
+            margin: 5px;
+        }
+        .digit{
+            position: relative;
+            left: 5px;
+        }
+        .text7{
+            display: flex;
+        }
+        .text6c{
+            position: relative;
+            left: 370px;
+        }
+        .text8{
+            text-align: center;
+        }
+
+    </style>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">indivisual registration</header>
+    <br>
+    <form action="backend.java" class="form">
+        <br>
+        <br>
+        <div class="text">use purticulars</div>
+            <div class="text2 first">
+                <span class="text">*</span>login id<input type="text">
+            </div>
+            <div class="text2 second">
+               <span class="text">*</span>password<input type="text">
+            </div>
+            <div class="text2 third">
+        <span class="text">*</span>confirm password<input type="text">
+            </div>
+            <div class="text">
+             porsnal purticulers
+            </div>
+            <div class="text3">
+                <div class="text4">
+                    <div class="a">
+                        <span class="text">*</span>salutation <select name="slautation" id="slautation">
+                            <option value="select">select</option>
+                            <option value="hi">hi</option>
+                        </select>
+                    </div>
+                    <div class="b">
+                        <span class="text">*</span>middel name<input type="text" name="middelname">
+                    </div>
+                    <div class="c">
+                        <span class="text">*</span>resident status <select name="resident status" id="residdentt">
+                            <option value="slect">select</option>
+                        </select>
+                    </div>
+                    <div class="d">
+                        <span class="text">*</span>email id <input type="text">
+                    </div>
+                </div>
+                <div class="text5">
+                    <div class="e">
+                      <span class="text">*</span>first name <input type="text" name="first name">
+                    </div>
+                    <div class="f">
+                     <span class="text">*</span>last name <input type="text" name="last name">
+                    </div>
+                    <div class="g">
+                      <span class="text">*</span>country <select name="country" id="country">
+                        <option value="select">select</option>
+                      </select>
+                    </div>
+                    <div class="h">
+                        <span class="text">*</span>mobile number <input type="text" name="mobile number">
+                    </div>
+                </div>
+            </div>
+                <div class="text account">
+                    account purticulars
+                </div>
+
+                <div class="text7">
+                    <div class="text6">
+                        <div class="text6a">
+                            <span class="account"><span class="text">*</span><span class="digit">15 digit account</span></span> <span class="no">no.</span><input type="text" name="account number">
+                        </div>
+                        <div class="text6b">
+                            <span class="text">*</span>fund transfer <select name="fund transfer">
+                                <option value="select">select</option>
+                            </select>
+                        </div>
+                    </div>
+                        <div class="text6c">
+                            <span class="text">*</span>nick name <input type="text" name="nick name">
+                        </div>
+                </div>
+                <div class="text">diclaration</div>
+                    <p>
+                        i have read,understood and hear by agree to terms and condition in restpect of all product and channels.
+                    </p>
+                    <p>
+                      i understand that any changes in termas and condition applicable to reletionship wod be made availabe to me on request at any iob branches.i confirm that all accounts under this login name are operated singly and in case of joint account opreated by either or serviver/ anyone or serviver(s) under his/her joint name respectively.i do hereby declare that information funished in this form to the best of my knowladge and belief
+                    </p>
+                    <div class="text8">
+                        <input type="submit">
+                        <input type="reset" >
+                    </div>
+
+                    
+                    
+
+    </form>
+</body>
+</html>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+1. Define the terms: Website, Webpage, Web browser, Web server,HTML,CSS.
+
+ANS
+1.website :- it is a collection of related web pages that are typically identified with a common domain name and published on at least one web server. It is accessible over the Internet or a private network, providing information and functionality to users.
+Webpage:
+
+2. webpage :- it is a single document on the World Wide Web, typically written in HTML (Hypertext Markup Language) and often containing multimedia elements such as images, videos, and hyperlinks. Webpages are the building blocks of websites.
+Web Browser:
+
+3. web browser :- it is a software application that allows users to access and navigate the World Wide Web. Examples include Google Chrome, Mozilla Firefox, Microsoft Edge, and Safari. Browsers interpret HTML and other web technologies to display content such as text, images, and multimedia.
+Web Server:
+
+4. web server :- it is a computer or software that stores, processes, and delivers web pages to users over the Internet. It responds to requests from web browsers by providing the requested web pages. Common web server software includes Apache, Nginx, and Microsoft Internet Information Services (IIS).
+HTML (Hypertext Markup Language):
+
+5. HTML :- it is a standard markup language used to create and design the structure of web pages. It consists of tags that define various elements such as headings, paragraphs, links, images, and more. HTML provides a way to structure content on the web and is a fundamental technology for building webpages.
+CSS (Cascading Style Sheets):
+
+6. CSS :- it is a style sheet language used for describing the presentation and layout of HTML documents. It enables web developers to control the appearance of web pages by specifying styles for elements like fonts, colors, spacing, and positioning. CSS allows for the separation of content and presentation, making it easier to manage and update the visual aspects of a website.
+
+
+---------------------------------------------------------------------------------------------------------------------------------------
+Que 2  :-
+Create a webpage to show “This is my first HTML page”
+
+ANS :- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <p>this is my first html page</p>
+    
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Que 3 :-
+Display top 10 IT companies list in html webpage
+
+ANS :- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Top 10 IT Companies</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .h1 {
+            text-align: center;
+        }
+        .li {
+            
+            margin-left: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Top 10 IT Companies</h1>
+    <li>
+        <li>Microsoft</li>
+        <li>Apple Inc.</li>
+        <li>Amazon</li>
+        <li>Alphabet Inc. (Google)</li>
+        <li>IBM</li>
+        <li>Intel Corporation</li>
+        <li>Oracle Corporation</li>
+        <li>Samsung Electronics</li>
+        <li>Taiwan Semiconductor Manufacturing Company (TSMC)</li>
+        <li>NVIDIA Corporation</li>
+    </li>
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Que 4 :- 
+
+
+ANS:-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dropdown List Example</title>
+    <style>
+        /* Styleing dropdown container */
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Styleing dropdown button */
+        .dropdown button {
+            padding: 10px;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            cursor: pointer;
+        }
+
+        /* Styleing dropdown content (hidden by default) */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Styleing dropdown options */
+        .dropdown-content a {
+            color: #333;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Styleing dropdown options on hover */
+        .dropdown-content a:hover {
+            background-color: #ddd;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+
+<!-- Create a dropdown container -->
+<div class="dropdown">
+    <!-- Dropdown button -->
+    <button>Choose an option</button>
+
+    <!-- Dropdown content -->
+    <div class="dropdown-content">
+        <a href="#">Option 1</a>
+        <a href="#">Option 2</a>
+        <a href="#">Option 3</a>
+    </div>
+</div>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Que 5 :- Create a Table Of college Management system using row span & colspan.
+
+ANS:-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>College Management System</title>
+    <style>
+        /* Add some basic styling for better readability */
+        .table {
+            border-collapse: collapse;
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .th{
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+        .td {
+            border: 1px solid #000000;
+            padding: 8px;
+            text-align: left;
+        }
+
+        .th {
+            background-color: #f2f2f2;
+        }
+    </style>
+</head>
+<body>
+
+<!-- College Management System Table -->
+<table>
+    <tr>
+        <th rowspan="2">Department</th>
+        <th colspan="3">Courses</th>
+        <th rowspan="2">Total Students</th>
+    </tr>
+    <tr>
+        <th>Computer Science</th>
+        <th>Electrical Engineering</th>
+        <th>Mechanical Engineering</th>
+    </tr>
+    <tr>
+        <td rowspan="3">Engineering</td>
+        <td>CS101</td>
+        <td>EE101</td>
+        <td>ME101</td>
+        <td>250</td>
+    </tr>
+    <tr>
+        <td>CS201</td>
+        <td>EE201</td>
+        <td>ME201</td>
+        <td>200</td>
+    </tr>
+    <tr>
+        <td>CS301</td>
+        <td>EE301</td>
+        <td>ME301</td>
+        <td>150</td>
+    </tr>
+    <tr>
+        <td rowspan="2">Arts</td>
+        <td>Literature</td>
+        <td>History</td>
+        <td colspan="2">-</td>
+    </tr>
+    <tr>
+        <td>Art and Design</td>
+        <td>political</td>
+        <td colspan="2">-</td>
+    </tr>
+</table>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Que 7 :- Create Registration form using HTML.
+
+ANS :-
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body bgcolor="lightblue">
+    <h1><center>form in html</center></h1>
+    <form action="index.html" target="_blank">
+
+        name<input type="text" placeholder="name" required><br><br>
+        email<input type="email" placeholder="email" required><br><br>
+        password<input type="password" placeholder="password" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}"
+        title="Must contain at least one  number and one uppercase and lowercase letter, and at least 8 or more characters"required><br><br>
+        color<input type="color"><br><br>
+        date<input type="date" required><br><br>
+        daate-time<input type="datetime-local"><br><br>
+        week<input type="week"><br><br>
+        strength<input type="range"><br><br>
+        quantity<input type="number"><br><br>
+        month<input type="month"><br><br>
+        mobile<input type="tel"><br><br>
+      address<textarea cols="20" rows="5"></textarea> <br><br>
+
+
+        gebder =
+        <input type="radio" name="gender">male
+        <input type="radio" name="gender">female
+        <BR><BR>
+
+            hoobies = 
+            <input type="checkbox">cricket
+            <input type="checkbox">games
+            <input type="checkbox">business
+            <input type="checkbox">travelling
+            <input type="checkbox">cars
+            <br><br>
+
+            country--
+            <select>
+                <option >--select your country--</option>
+                <option >india</option>
+                <option >usa</option>
+                <option >uae</option>
+                <option >japan</option>
+                <option >russia</option>
+            </select>
+            <br><br>
+
+            uplode resume = <input type="file">
+            <br><br>
+
+            <input type="submit" value="singup">
+            <input type="reset">
+           <a href="list.html"> <input type="button" value="button">
+        </form>
+
+
+
+
+</body>
+</html>
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Que 8 :- In how manyways can a CSS be integrated as a web page?
+
+ANS :-
+
+there are 5 ways to use css in html.
+
+1) Inline CSS:
+
+Apply styles directly within the HTML elements using the style attribute.
+
+2) Internal (or Embedded) CSS:
+
+Define styles within a <style> tag in the <head> section of the HTML document.
+
+3) External CSS:
+
+Create a separate CSS file (e.g., styles.css) and link it to the HTML document using the <link> tag.
+
+4) External CSS:
+
+Create a separate CSS file (e.g., styles.css) and link it to the HTML document using the <link> tag.
+
+5) CSS in the <head>:
+
+You can also include styles directly within the <head> section of the HTML document without using the <style> tag 
+
+
+----------------------------------------------------------------------------------------------------------------------------------------
+
+Que 9 :- Create simple three pages using External CSS, Internal CSS, and Inline CSS.
+
+
+ANS :- 
+1) External CSS
+
+html....
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    <title>External CSS Page</title>
+</head>
+<body>
+    <header>
+        <h1>External CSS Page</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <p>This is the content of the external CSS page.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
+
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    background-color: #444;
+    padding: 10px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    margin: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+2)Internal CSS  :-
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+        }
+
+        section {
+            margin: 20px;
+        }
+
+        footer {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 10px;
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+    <title>Internal CSS Page</title>
+</head>
+<body>
+    <header>
+        <h1>Internal CSS Page</h1>
+    </header>
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">About</a>
+        <a href="#">Contact</a>
+    </nav>
+    <section>
+        <p>This is the content of the internal CSS page.</p>
+    </section>
+    <footer>
+        <p>&copy; 2023 My Website</p>
+    </footer>
+</body>
+</html>
+
+
+3) Inline CSS :- 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline CSS Page</title>
+</head>
+<body style="font-family: 'Arial', sans-serif; background-color: #e6e6e6; margin: 0; padding: 0;">
+
+    <header style="background-color: #ff6600; color: white; text-align: center; padding: 10px;">
+        <h1>Inline CSS Page</h1>
+    </header>
+
+    <nav style="display: flex; justify-content: space-around; background-color: #333; padding: 10px;">
+        <a href="#" style="color: white; text-decoration: none;">Home</a>
+        <a href="#" style="color: white; text-decoration: none;">About</a>
+        <a href="#" style="color: white; text-decoration: none;">Contact</a>
+    </nav>
+
+    <section style="margin: 20px;">
+        <p>This is the content of the inline CSS page.</p>
+    </section>
+
+    <footer style="background-color: #ff6600; color: white; text-align: center; padding: 10px; position: absolute; bottom: 0; width: 100%;">
+        <p>&copy; 2023 My Website</p>
+    </footer>
+
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Que 11 :- Create link-pseudo classes using external css, to format links on the pages.
+
+ANS :- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="icon" href=https://www.googleadservices.com/pagead/aclk?sa=L&ai=DChcSEwjC_IX50JCCAxWzqmYCHdzCAiEYABAAGgJzbQ&gclid=CjwKCAjw-eKpBhAbEiwAqFL0mnCt5ExQTeV_Ec8WCIbgGDNUn5anBpl7jHipdKt95EWUJZ-pWSkiQBoC-MwQAvD_BwE&ohost=www.google.com&cid=CAESVuD2fYzCF9O4yQ187z7hxUqh0KtthGxim44RvJEemEVUB8o8I99jT-4c6QWVtLheXw9mEMolo08q586yqtmjIO46zyA2FGlJsxrJ_iRjgX2RsDohF5gY&sig=AOD64_0fAw9As2evHFtjVmI8K53DPbEkgw&q&adurl&ved=2ahUKEwjB2Pj40JCCAxW7T2wGHYOBAEAQ0Qx6BAgHEAE"">
+</head>
+<body>
+    <a href="https://www.lamborghini.com/en-en"><img src="https://www.lamborghini.com/sites/it-en/files/DAM/lamborghini/facelift_2019/models_gw/2023/03_29_revuelto/gate_models_s_02_m.jpg"></a>
+    
+    
+</body>
+</html>
+
+----------------------------------------------------------------------------------------------------------------------------------------
+Que 12 :- Create a dynamic pseudo class using HTML, CSS.
+
+ANS :- 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Define the default style */
+        a {
+            color: blue;
+            text-decoration: none;
+        }
+
+        /* Define the style for the :hover state */
+        a:hover {
+            color: red;
+            text-decoration: underline;
+        }
+    </style>
+    <title>Dynamic Pseudo-class Example</title>
+</head>
+<body>
+
+    <p>Move your mouse over the link to see the dynamic pseudo-class in action:</p>
+    <!-- Anchor element with dynamic pseudo-class -->
+    <a href="#">Hover me</a>
+
+</body>
+</html>
+---------------------------------------------------------------------------------------------------------------------------------------
+
+Que 6. creating table :- 1 (codes)
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        .roullet{
+            background-color: green;border-color: aliceblue;
+            width: 600px;
+            height: 30vh;
+            color: aliceblue;
+        }
+        .vcolor{
+            background-color: red;
+        }
+        .color{
+            background-color: black;
+        }
+        .table2{
+            
+        }
+        
+    </style>
+    <title>table</title>
+</head>
+<body>
+    <table class="roullet" border="1">
+        <tr>
+            <th rowspan="5">0</th>
+            <th class="vcolor">3</th>
+            <th class="color">6</th>
+            <th class="vcolor">9</th>
+            <th class="vcolor">12</th>
+            <th class="color">15</th>
+            <th class="vcolor">18</th>
+            <th class="vcolor">21</th>
+            <th class="color">24</th>
+            <th class="vcolor">27</th>
+            <th class="vcolor">30</th>
+            <th class="color">33</th>
+            <th class="vcolor">36</th>
+            <th>2to1</th>
+        </tr>
+        <tr>
+            <td class="color">2</td>
+            <td class="vcolor">5</td>
+            <td class="color">8</td>
+            <td class="color">11</td>
+            <td class="vcolor">14</td>
+            <td class="color">17</td>
+            <td class="color">20</td>
+            <td class="vcolor">23</td>
+            <td class="color">26</td>
+            <td class="color">29</td>
+            <td class="vcolor">32</td>
+            <td class="color">35</td>
+            <td>2to1</td>
+        </tr>
+        <tr>
+            <td class="vcolor">1</td>
+            <td class="color">4</td>
+            <td class="vcolor">7</td>
+            <td class="color">10</td>
+            <td class="color">13</td>
+            <td class="vcolor">16</td>
+            <td class="vcolor">19</td>
+            <td class="color">22</td>
+            <td class="vcolor">25</td>
+            <td class="color">28</td>
+            <td class="color">31</td>
+            <td class="vcolor">34</td>
+            <td>2to1</td>
+        </tr>
+        <tr>
+            <td colspan="4">1st12</td>
+            <td colspan="4">2nd12</td>
+            <td colspan="4">3rd12</td>
+            <td rowspan="2"> </td>
+        </tr>
+        <tr>
+            <td colspan="2">1to18</td>
+            <td colspan="2">even</td>
+            <td colspan="2" class="vcolor"></td>
+            <td colspan="2" class="color"></td>
+            <td colspan="2">odd</td>
+            <td colspan="2">19to36</td>
+        </tr>
+    </table>
+    
+    <table border="1" class="table2" >
+        <tr>
+        <th colspan="6">css3 brower support (latest browser versions)</th>
+        </tr>
+        <tr>
+            <th>css property</th>
+            <th>internet explorer</th>
+            <th>firefox</th>
+            <th>chrome</th>
+            <th>safari</th>
+            <th>opera</th>
+        </tr>
+        <tr>
+            <th>border radus</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>yes</th>
+        </tr>
+        <tr>
+            <th>box shadow</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>yes</th>
+        </tr>
+        <tr>
+            <th>css animations</th>
+            <th>no</th>
+            <th>no</th>
+            <th>yes</th>
+            <th>yes</th>
+            <th>no</th>
+        </tr>
+
+    </table>
+</body>
+</html>
+
+
+
+
+
+
